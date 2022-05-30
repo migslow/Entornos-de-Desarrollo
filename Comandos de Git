@@ -1,6 +1,6 @@
-Git init => Va a inicializar un repositorio nuevo.
+Git init => crea un nuevo repositorio local con el nombre especificado y inicializa un repositorio nuevo.
 
-Git clone => Clona un repositorio ya existente.
+Git clone => clona un repositorio ya existente.
 
 Git status => muestra el estado de los cambios en el repositorio desde la última versión guardada.
 
@@ -10,7 +10,7 @@ Git show => muestra el usuario, el día, la hora y el mensaje del último commit
 
 Git annotate => muestra el contenido de un fichero anotando cada línea con información del commit en el que se introdujo.
 
-Git diff => muestra las diferencias entre el directorio de trabajo y la zona de intercambio temporal.
+Git diff => muestra las diferencias entre el directorio de trabajo y lo que hay en tu máquina para ver los cambios.
 
 Git checkout <commit> -- <file> => actualiza el fichero a la versión correspondiente al commit. 
 Suele utilizarse para eliminar los cambios en un fichero que no han sido guardados aún en la zona de intercambio temporal.
@@ -19,7 +19,18 @@ Git reset <fichero> => elimina los cambios del fichero <fichero> de la zona de i
 
 Git add <file> => añade un cambio del directorio de trabajo en el entorno de ensayo. Git add. añadirá todos los cambios independientemente de sea o no de esa carpeta.
 
-Git commit => sirve para confirmar una instantánea del directorio del entorno de ensayo con un mensaje.
+Git commit -m => sirve para confirmar una instantánea del directorio del entorno de ensayo con un mensaje.
 
 Git merge => permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama. 
 Ten en cuenta que todos los comandos presentados a continuación se fusionan en la rama actual.
+
+Git branch => enumera todas las ramas de el repositorio actual.
+
+Git checkout [branch-name] => cambia a la rama especificada y actualiza el directorio activo.
+ 
+Git merge [branch] => combina el historial de la rama especificada con la rama actual.
+
+Git branch -d [branch-name] => borra la rama especificada.
+
+git fetch => es un comando principal que se usa para descargar contenidos desde un repositorio remoto. 
+Se usa en combinación con git remote , git branch , git checkout y git reset para actualizar un repositorio local al estado de un remoto.
