@@ -1,1 +1,17 @@
+@author	Nombre del desarrollador.
 
+@version	Versión del método o clase.
+
+@param	Definición de un parámetro de un método, es requerido para todos los parámetros del método.
+
+@return	Informa de lo que devuelve el método, no se puede usar en constructores o métodos "void".
+
+@throws	Excepción lanzada por el método, posee un sinónimo de nombre @exception.
+
+@see	Asocia con otro método o clase.
+
+@since	Especifica la versión del producto	indicativo numerico	1.2
+
+@serial	Describe el significado del campo y sus valores aceptables. Otras formas válidas son @serialField y @serialDat.
+
+@deprecated	Indica que el método o clase es antigua y que no se recomienda su uso porque posiblemente desaparecerá en versiones posteriores.
