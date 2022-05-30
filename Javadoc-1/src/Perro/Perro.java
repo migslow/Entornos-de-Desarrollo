@@ -37,7 +37,7 @@ public class Perro {
 	}
 
 	/**
-	 * Modifica el nombre del perro
+	 * Define el nombre del perro
 	 * @param nombre del perro
 	 */
 
@@ -55,7 +55,7 @@ public class Perro {
 	}
 
 	/**
-	 * Modifica el color del perro
+	 * Define el color del perro
 	 * @param color del perro
 	 */
 
@@ -73,7 +73,7 @@ public class Perro {
 	}
 
 	/**
-	 * Modifica la edad del perro
+	 * Define la edad del perro
 	 * @param edad del perro
 	 */
 

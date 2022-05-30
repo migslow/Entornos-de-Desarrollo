@@ -43,7 +43,7 @@ public class Coche {
 	}
 
 	/**
-	 * Modifica el color del coche
+	 * Define el color del coche
 	 * @param color color del coche
 	 */
 	public void setColor(String color) {
@@ -59,7 +59,7 @@ public class Coche {
 	}
 
 	/**
-	 * Modifica los caballos de fuerza que tiene de serie el coche
+	 * Define los caballos de fuerza que tiene de serie el coche
 	 * @param cv caballos de fuerza del coche
 	 */
 	public void setCv(int cv) {
@@ -75,7 +75,7 @@ public class Coche {
 	}
 
 	/**
-	 * Modifica la fecha de la adquisición del coche
+	 * Define la fecha de la adquisición del coche
 	 * @param anyoAdquisición fecha de anyoAdquisición del coche 
 	 */
 	public void setAnyoAdquisición(Date anyoAdquisición) {
@@ -91,7 +91,7 @@ public class Coche {
 	}
 
 	/**
-	 * Modifica la matricula con una combinación de caracteres alfanumericos despues de salir del concesionario
+	 * Define la matricula con una combinación de caracteres alfanumericos despues de salir del concesionario
 	 * @param matricula matricula que tiene el coche
 	 */
 	public void setMatricula(String matricula) {
