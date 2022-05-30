@@ -2,13 +2,15 @@ package FactoryMethod;
 
 /**
  * Con la clase Fabrica se crean los tipos de vehíulo
- * @author rasob
+ * 
+ * @author migslow
  *
  */
 public class Fabrica {
 
 	/**
 	 * Clase para crear vehículos en esta fábrica
+	 * 
 	 * @param tipo Le insertas el tipo de vehículo a crear en la fábrica
 	 * @return Devuelve el objeto que se ha creado en la fábrica (coche o moto)
 	 */

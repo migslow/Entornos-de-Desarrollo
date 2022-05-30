@@ -12,15 +12,15 @@ public class PersonaBuilder {
 	public String getNombre() {
 		return nombre;
 	}
-	
+
 	public String getDni() {
 		return dni;
 	}
-	
+
 	public int getEdad() {
 		return edad;
 	}
-	
+
 	public PersonaBuilder nombre(String nombre) {
 		this.nombre = nombre;
 		return this;
@@ -39,5 +39,5 @@ public class PersonaBuilder {
 	public Persona build() {
 		return new Persona(this);
 	}
-	
+
 }

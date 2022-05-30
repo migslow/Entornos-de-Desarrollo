@@ -14,25 +14,25 @@ public class Calculadora {
 	public int sumaRapida() {
 		return num1 + num2;
 	}
-	
+
 	public int sumaLenta() throws InterruptedException {
 //			Tarde 1000 milisegundos (1 segundo)
-			Thread.sleep(1000);
+		Thread.sleep(1000);
 		return num1 + num2;
 	}
-	
+
 	public int restar() {
 		return num1 - num2;
 	}
-	
+
 	public double dividir() {
-		return (double)(num1 / num2);
+		return (double) (num1 / num2);
 	}
-	
+
 	public int producto() {
 		return num1 * num2;
 	}
-	
+
 	public double raizNum1() {
 		return Math.sqrt(num1);
 	}
@@ -40,5 +40,5 @@ public class Calculadora {
 	public double raizNum2() {
 		return Math.sqrt(num2);
 	}
-	
+
 }

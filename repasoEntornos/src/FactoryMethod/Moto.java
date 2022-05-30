@@ -2,7 +2,8 @@ package FactoryMethod;
 
 /**
  * Se crea el vehículo Moto en la Fabrica
- * @author rasob
+ * 
+ * @author migslow
  *
  */
 public class Moto implements Transporte {

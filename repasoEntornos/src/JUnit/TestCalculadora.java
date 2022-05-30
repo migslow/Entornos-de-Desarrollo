@@ -13,12 +13,12 @@ class TestCalculadora {
 	public static void inicio() {
 		System.out.println("Método iniciado");
 	}
-	
+
 	@AfterAll
 	public static void alFinal() {
 		System.out.println("Método finalizado");
 	}
-	
+
 	@Test
 	void testCalculadora() {
 		fail("Not yet implemented");

@@ -2,11 +2,12 @@ package FactoryMethod;
 
 /**
  * Vehículo creado en la Fabrica <b>(coche)</b>
- * @author rasob
+ * 
+ * @author migslow
  *
  */
 public class Coche implements Transporte {
-	
+
 	/**
 	 * Arranca el coche
 	 */

@@ -30,6 +30,4 @@ public final class Persona {
 		return "Persona [nombre=" + nombre + ", dni=" + dni + ", edad=" + edad + "]";
 	}
 
-	
-	
 }
