@@ -1,7 +1,7 @@
 /**
  * @author migslow
  * @version 1.0
- * Clase Coche que muestran las caracteristicas de un coche que esta en un concesionario.
+ * Clase Coche que muestran las caracteristicas de un coche que esta actualmente en un concesionario.
  */
 package Concesionario;
 
