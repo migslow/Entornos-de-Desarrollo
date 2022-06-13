@@ -2,13 +2,13 @@ package Coches;
 
 public class coche {
 
-	private int matricula;
+	private String matricula;
 	private String marca;
 	private String modelo;
 	private String color;
 	private double longitud;
 
-	public coche(int matricula, String marca, String modelo, String color, double longitud) {
+	public coche(String matricula, String marca, String modelo, String color, double longitud) {
 		super();
 		this.matricula = matricula;
 		this.marca = marca;
@@ -20,14 +20,14 @@ public class coche {
 	/**
 	 * @return the matricula
 	 */
-	public int getMatricula() {
+	public String getMatricula() {
 		return matricula;
 	}
 
 	/**
 	 * @param matricula the matricula to set
 	 */
-	public void setMatricula(int matricula) {
+	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
 
@@ -91,6 +91,44 @@ public class coche {
 	public String toString() {
 		return "coche [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color
 				+ ", longitud=" + longitud + "]";
+	}
+
+	public void colorCoche(String color) throws Exception {
+		if (this.color.contains(color)) {
+			throw new Exception("En una excepción, el color del coche debe corresponder con el que tiene el coche");
+		} else {
+			this.color = null;
+			throw new Exception("En una excepción, el coche debe tener un color");
+		}
+	}
+
+	public void marcaCoche(String marca) throws Exception {
+		if (this.color.contains(marca)) {
+			throw new Exception("En una excepción, la marca debe corresponder con el que tiene el coche");
+		} else {
+			this.color = null;
+			throw new Exception("En una excepción, el coche debe tener una marca");
+		}
+	}
+
+	public void modeloCoche(String modelo) throws Exception {
+		if (this.color.contains(modelo)) {
+			throw new Exception("En una excepción, el modelo debe corresponder con el que tiene el coche");
+		} else {
+			this.color = null;
+			throw new Exception("En una excepción, el coche debe tener un modelo");
+		}
+	}
+
+	public void longitudCoche(double longitud) throws Exception {
+
+		if (longitud < 2000) {
+			throw new Exception(
+					"En una busqueda en el registro del concesiorio, un coche no puede tener una longitud minima a 2000");
+		} else {
+			throw new Exception(
+					"En una busqueda en el registro del concesiorio, la longitud del coche debe ser positiva");
+		}
 	}
 
 }
