@@ -84,8 +84,9 @@ class cocheTest {
 	}
 
 	@Test
-	void testColorCoche() {
+	void testColorCoche() throws Exception {
 		coche c = new coche("4567 ABC", "Opel", "Astra", "Negro", 2500);
+		
 	}
 
 	@Test
